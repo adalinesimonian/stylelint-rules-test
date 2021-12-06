@@ -2,14 +2,22 @@
 
 ## Clone and Install
 
-1. Clone the repository:
+1. Switch to the `warning-ranges` branch in the directory in which you keep your clone of the Stylelint repository:
 
    ```
+   cd ~/github/stylelint/stylelint
+   git checkout warning-ranges
+   ```
+
+2. Clone the `stylelint-rules-test` repository:
+
+   ```
+   cd ~/github/adalinesimonian
    git clone https://github.com/adalinesimonian/stylelint-rules-test.git
    cd stylelint-rules-test
    ```
 
-2. Update the Stylelint dependency path, if needed:
+3. Update the Stylelint dependency path, if needed:
 
    This repository expects to see the Stylelint repository in a folder named `stylelint` two levels up from the root of the project. For example:
 
@@ -23,7 +31,7 @@
 
    If you are using a different directory structure, you can change the dependency in `package.json` to point to the correct location.
 
-3. Install dependencies:
+4. Install dependencies:
 
    ```
    yarn
