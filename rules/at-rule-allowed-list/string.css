@@ -1,0 +1,38 @@
+@import 'path/to/file.css';
+
+@media screen and (max-width: 1024px) {
+  a {
+    display: none;
+  }
+}
+
+a {
+  @extend placeholder;
+}
+
+@keyframes name {
+  from {
+    top: 10px;
+  }
+  to {
+    top: 20px;
+  }
+}
+
+@keyframes name {
+  from {
+    top: 10px;
+  }
+  to {
+    top: 20px;
+  }
+}
+
+@-moz-keyframes name {
+  from {
+    top: 10px;
+  }
+  to {
+    top: 20px;
+  }
+}

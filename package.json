@@ -1,0 +1,17 @@
+{
+  "name": "stylelint-rules-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
+    "test": "NODE_NO_WARNINGS=1 yarn node ./run-stylelint.mjs"
+  },
+  "dependencies": {
+    "execa": "^6.0.0",
+    "fast-glob": "^3.2.7",
+    "prettier": "^2.5.1",
+    "stylelint": "link:../../stylelint/stylelint"
+  },
+  "packageManager": "yarn@3.1.1"
+}

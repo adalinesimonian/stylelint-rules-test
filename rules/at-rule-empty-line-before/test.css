@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url(x.css);
+@import url(y.css);
+@import url(z.css); /* comment */
+
+@media (min-width: 100px) {}
+@media (min-width: 200px) {}
+@media print {}
+
+/* comment */
+@keyframes id {}
+
+/* comment */
+
+@keyframes {}
+
+@keyframes id {} /* comment */
+
+@supports {
+  @media {}
+
+  @media {}
+}
+
+a {
+
+  @extends .foo;
+  @extends .bar;
+
+  @include x;
+  @include y {}
+}
+
+a {
+
+  @extend foo;
+  color: pink;
+}
+
+b {
+  color: pink;
+
+  @extend foo;
+}
+
+a {
+  @extend foo;
+  color: pink;
+}
+
+b {
+  color: pink;
+  @extend foo;
+}

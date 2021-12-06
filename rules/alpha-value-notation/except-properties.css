@@ -1,0 +1,13 @@
+a {
+  color: rgba(0, 0, 0, 50%);
+  opacity: 50%;
+  shape-image-threshold: 50%;
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+p {
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  shape-image-threshold: 0.5;
+  background-color: rgba(0, 0, 0, 0.5);
+}
